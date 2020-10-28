@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4617144751156552676}
   - component: {fileID: 4617144751156552679}
   - component: {fileID: 4617144751156552683}
+  - component: {fileID: -5173725875628196465}
   m_Layer: 0
   m_Name: Precelek
   m_TagString: Precelek
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 81ef19e564c16c6478467df0194ecca3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,3 +111,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-5173725875628196465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4617144751156552678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc30d8d726684d4ba2906c4382660b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _materials:
+  - {fileID: 2100000, guid: da58971c363474248aafb917982d9116, type: 2}
+  - {fileID: 2100000, guid: 13240c2d1b601304daa22bb682371b94, type: 2}
+  - {fileID: 2100000, guid: 7be604fc217675a459c69e134f7eeee0, type: 2}
+  - {fileID: 2100000, guid: 94e2ae3486c3d104cb060c3eff68ce44, type: 2}
+  - {fileID: 2100000, guid: 95c3038f227daf542b4077b9447429b0, type: 2}
+  _renderer: {fileID: 4617144751156552676}
